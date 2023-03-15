@@ -56,7 +56,7 @@ void PrintMatrix(int[,] inputMatrix)
 /// Метод сортирует по убыванию элементы строки матрицы, переданной на вход
 /// </summary>
 /// <param name="inputMatrix">Двумерный массив или таблица</param>
-/// <returns></returns>
+/// <returns>Итоговая матрица с отсортированными строками</returns>
 
 int[,] DecreasingRowElements(int[,] inputMatrix)
 {
