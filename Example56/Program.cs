@@ -59,7 +59,7 @@ void PrintMatrix(int[,] inputMatrix)
 /// суммой элементов для введенной матрицы.
 /// </summary>
 /// <param name="inputMatrix">Двумерный массив или таблица</param>
-/// <returns></returns>
+/// <returns>Номер индекса строки с минимальной суммой элементов</returns>
 int IndexMinSum(int[,] inputMatrix)
 {
               int[] maximumValues = new int[inputMatrix.GetLength(0)];
